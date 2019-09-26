@@ -12,9 +12,6 @@ class Listing extends React.Component {
       <div className="col s12 m6 l6">
         <div className="card horizontal hoverable">
           <div className="card-stacked">
-            <div className="right-align">
-              <Link to={`edit/${this.props.home.id}`} className=""> <i className="material-icons right edit teal-text"> edit </i> </Link>
-            </div>
             <div className="card-content">
 
               <ul className="listing">
@@ -31,7 +28,7 @@ class Listing extends React.Component {
               <p><i className="material-icons left"> info </i> {this.props.home.description} </p>
             </div>
             <div className="card-action center-align red-text">
-              <Link onClick={() => this.props.delete(this.props.home.id)} className="red-text text-lighten-1"> Delete </Link>
+            <Link to={`edit/${this.props.homeid}`} className="btn-small"> <i className="material-icons right">edit</i> Edit </Link>
             </div>
           </div>
         </div>

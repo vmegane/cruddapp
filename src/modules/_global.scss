@@ -31,3 +31,9 @@ ul.listing > li {
         }
     }
 }
+
+.btn {
+    &.edit-button {
+        margin: 0 5px 0 5px !important;
+    }
+}

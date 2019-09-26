@@ -13,7 +13,6 @@ function Navbar() {
             <li><Link to='/manage'>Manage</Link></li>
           </ul>
           </div>
-          
         </div>
     </nav>
   )

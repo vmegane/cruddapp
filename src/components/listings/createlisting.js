@@ -15,35 +15,13 @@ class CreateListing extends React.Component {
       apartment: ''
     }
   }
-
   handleChange = (e) => {
     e.preventDefault();
     this.setState({
       [e.target.id]: e.target.value
     })
   }
-
-  handleSubmit = () => {
-    const data = JSON.stringify(this.state);
-    const url = 'https://alfa.propertygrouppoland.pl/q/paulinaopacka/create'
-
-    try {
-      fetch(url, {
-        method: 'POST',
-        mode: 'no-cors',
-        cache: 'no-cache',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        redirect: 'follow',
-        referrer: 'no-referrer',
-        body: data
-      }).then((response) => console.log(response))
-    }
-    catch (error) {
-      console.error(error);
-    }
-  }
+  
 
   render() {
     return (
@@ -90,16 +68,11 @@ class CreateListing extends React.Component {
                 </div>
                 <div className="input-field">
                   <i className="material-icons prefix">info</i>
-
                   <textarea id="description" className="materialize-textarea" value={this.state.value} onChange={this.handleChange}></textarea>
                   <label htmlFor="description">Description</label>
-
                 </div>
-
-                <Link to='' className="btn-floating btn-large red lighten-2 pulse right" onClick={this.handleSubmit}><i className="material-icons">add</i></Link>
-
-                {/* <button className="btn waves-effect waves-light red lighten-2 right" type="submit" name="action" onClick={this.handleSubmit}><i className="material-icons">add</i></button> */}
-
+                <Link to='/' className="btn-floating btn-large red lighten-2 pulse right" onClick={() => this.props.handleCreation(this.state)}>
+                  <i className="material-icons">add</i></Link>
               </div>
             </div>
           </div>
@@ -107,7 +80,6 @@ class CreateListing extends React.Component {
       </div>
     )
   }
-
 }
 
 export default CreateListing;

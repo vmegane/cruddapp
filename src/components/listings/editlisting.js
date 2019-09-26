@@ -30,35 +30,17 @@ class EditListing extends React.Component {
     })
   }
 
-  saveChanges = (homeid) => {
-    //console.log('new data', this.state.listing)
-    this.editListing(homeid);
+  saveChanges = (homeid, homedata) => {
+    this.props.editListing(homeid, homedata);
     this.props.history.push('/')
   }
 
-  editListing = (homeid) => {
-    const updatedData = JSON.stringify(this.state.listing);
-    const url = `https://alfa.propertygrouppoland.pl/q/paulinaopacka/update/${homeid}`;
-    try {
-      fetch(url, {
-        method: 'POST',
-        mode: 'no-cors',
-        cache: 'no-cache',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        redirect: 'follow',
-        referrer: 'no-referrer',
-        body: updatedData
-      }).then((response) => console.log(response))
-    }
-    catch (error) {
-      console.error(error);
-    }
+  handleDelete = (homeid) => {
+    this.props.deleteListing(homeid);
+    this.props.history.push('/')
   }
 
   render() {
-    console.log(this.state)
     if (this.state.listing) {
       return (
         <div className="container">
@@ -100,9 +82,15 @@ class EditListing extends React.Component {
                   </div>
                 </div>
                 <div className="card-action center-align red-text">
-                  <Link onClick={() => this.saveChanges(this.state.listing.id)} className="teal-text text-lighten-1"> Save </Link>
-                  <Link to='/' className="text-lighten-1"> Cancel </Link>
-                  <Link onClick={() => this.props.delete(this.props.home.id)} className="red-text text-lighten-1"> Delete </Link>
+                  <Link onClick={() => this.saveChanges(this.state.listing.id, this.state.listing)} className=" btn teal white-text edit-button">                
+                   <i className="material-icons left">save</i>
+                  Save </Link>
+                  <Link to='/' className="btn amber white-text edit-button"> 
+                    <i className="material-icons left">cancel</i>
+                    Cancel </Link>
+                  <Link onClick={() => this.handleDelete(this.state.homeid)} className="btn red white-text lighten-2 edit-button"> 
+                    <i className="material-icons right">delete</i>
+                    Delete </Link>
                 </div>
               </div>
             </div>
