@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cruddapp/static/css/main.53758a49.chunk.css",
-    "main.js": "/cruddapp/static/js/main.5b3c25cd.chunk.js",
-    "main.js.map": "/cruddapp/static/js/main.5b3c25cd.chunk.js.map",
+    "main.css": "/cruddapp/static/css/main.62c48a58.chunk.css",
+    "main.js": "/cruddapp/static/js/main.5b273236.chunk.js",
+    "main.js.map": "/cruddapp/static/js/main.5b273236.chunk.js.map",
     "runtime-main.js": "/cruddapp/static/js/runtime-main.44c20c47.js",
     "runtime-main.js.map": "/cruddapp/static/js/runtime-main.44c20c47.js.map",
-    "static/js/2.b87c90db.chunk.js": "/cruddapp/static/js/2.b87c90db.chunk.js",
-    "static/js/2.b87c90db.chunk.js.map": "/cruddapp/static/js/2.b87c90db.chunk.js.map",
+    "static/js/2.da11a69f.chunk.js": "/cruddapp/static/js/2.da11a69f.chunk.js",
+    "static/js/2.da11a69f.chunk.js.map": "/cruddapp/static/js/2.da11a69f.chunk.js.map",
     "index.html": "/cruddapp/index.html",
-    "precache-manifest.4792c326abd24425b9c5d549061e6493.js": "/cruddapp/precache-manifest.4792c326abd24425b9c5d549061e6493.js",
+    "precache-manifest.d371358c73bda10d13593f8ca869bf30.js": "/cruddapp/precache-manifest.d371358c73bda10d13593f8ca869bf30.js",
     "service-worker.js": "/cruddapp/service-worker.js",
-    "static/css/main.53758a49.chunk.css.map": "/cruddapp/static/css/main.53758a49.chunk.css.map",
+    "static/css/main.62c48a58.chunk.css.map": "/cruddapp/static/css/main.62c48a58.chunk.css.map",
     "static/media/App.scss": "/cruddapp/static/media/background1.9d4d0b0e.jpg"
   }
 }
