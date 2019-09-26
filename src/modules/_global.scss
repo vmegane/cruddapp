@@ -1,0 +1,33 @@
+body {
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.logo {
+    height: 64px;
+    //width: 200px;
+}
+
+.home-icon {
+    font-size: 3rem !important;
+}
+
+ul.listing > li {
+    height: 2.5rem;
+}
+.card-content {
+    padding-top: 4px !important;
+}
+
+.material-icons {
+    &.right {
+        &.edit {
+            padding-top: 4px;
+            padding-right: 4px;
+        }
+    }
+}
