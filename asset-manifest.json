@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cruddapp/static/css/main.53758a49.chunk.css",
+    "main.js": "/cruddapp/static/js/main.5b3c25cd.chunk.js",
+    "main.js.map": "/cruddapp/static/js/main.5b3c25cd.chunk.js.map",
+    "runtime-main.js": "/cruddapp/static/js/runtime-main.44c20c47.js",
+    "runtime-main.js.map": "/cruddapp/static/js/runtime-main.44c20c47.js.map",
+    "static/js/2.b87c90db.chunk.js": "/cruddapp/static/js/2.b87c90db.chunk.js",
+    "static/js/2.b87c90db.chunk.js.map": "/cruddapp/static/js/2.b87c90db.chunk.js.map",
+    "index.html": "/cruddapp/index.html",
+    "precache-manifest.4792c326abd24425b9c5d549061e6493.js": "/cruddapp/precache-manifest.4792c326abd24425b9c5d549061e6493.js",
+    "service-worker.js": "/cruddapp/service-worker.js",
+    "static/css/main.53758a49.chunk.css.map": "/cruddapp/static/css/main.53758a49.chunk.css.map",
+    "static/media/App.scss": "/cruddapp/static/media/background1.9d4d0b0e.jpg"
+  }
+}
