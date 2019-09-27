@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cruddapp/static/css/main.62c48a58.chunk.css",
-    "main.js": "/cruddapp/static/js/main.8cd2b696.chunk.js",
-    "main.js.map": "/cruddapp/static/js/main.8cd2b696.chunk.js.map",
+    "main.js": "/cruddapp/static/js/main.50cc1838.chunk.js",
+    "main.js.map": "/cruddapp/static/js/main.50cc1838.chunk.js.map",
     "runtime-main.js": "/cruddapp/static/js/runtime-main.44c20c47.js",
     "runtime-main.js.map": "/cruddapp/static/js/runtime-main.44c20c47.js.map",
     "static/js/2.da11a69f.chunk.js": "/cruddapp/static/js/2.da11a69f.chunk.js",
     "static/js/2.da11a69f.chunk.js.map": "/cruddapp/static/js/2.da11a69f.chunk.js.map",
     "index.html": "/cruddapp/index.html",
-    "precache-manifest.8a32c2b79cfbac95b41e9c4ff76291c6.js": "/cruddapp/precache-manifest.8a32c2b79cfbac95b41e9c4ff76291c6.js",
+    "precache-manifest.89c2d0f18596635b0bc5b6ce8d14c401.js": "/cruddapp/precache-manifest.89c2d0f18596635b0bc5b6ce8d14c401.js",
     "service-worker.js": "/cruddapp/service-worker.js",
     "static/css/main.62c48a58.chunk.css.map": "/cruddapp/static/css/main.62c48a58.chunk.css.map",
     "static/media/App.scss": "/cruddapp/static/media/background1.9d4d0b0e.jpg"
