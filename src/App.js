@@ -104,7 +104,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename="{process.env.PUBLIC_URL}">
           <Navbar />
           <Switch>
             <Route exact path="/" render={props => <Listings
